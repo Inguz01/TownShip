@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#B388FF"
     tools:context=".MainActivity">
-
+    <!-- //Creación de la rama develop -->
     <TextView
         android:id="@+id/textView3"
         style="@style/Texto_titulo"

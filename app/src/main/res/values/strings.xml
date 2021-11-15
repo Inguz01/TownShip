@@ -3,5 +3,8 @@
     <string name="ciudad">BOGOTÁ</string>
     <string name="sub_informacion">Información General</string>
     <string name="informacion">Bogotá, la capital de Colombia es multicultural, diversa y llena de arte, una ciudad engalanada por los verdes paisajes de sus Cerros orientales y las cientos de especies de aves residentes y migratorias que se pueden encontrar en los humedales, parques y barrios de la capital.  En el centro de Bogotá puedes encontrar una extensa riqueza cultural e histórica, reflejada en decenas de museos, universidades, restaurantes, casas de estilo republicano y colonial, y por supuesto en sus emblemáticos Cerros Monserrate y Guadalupe.</string>
-    <string name="sub_ubicacion">Ubicación</string>
+    <string name="sub_temperatura">Ubicación:</string>
+    <string name="temperatura">6°C - 19°C</string>
+    <string name="sub_altura">Altura:</string>
+    <string name="altura">2600 msnm</string>
 </resources>

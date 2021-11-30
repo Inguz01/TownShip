@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B388FF"
-    tools:context=".MainActivity">
+    tools:context=".detalle.DetalleActivity">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/name_text_view"
         style="@style/Texto_titulo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.038" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/picture_image_view"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
         android:layout_marginTop="8dp"
@@ -37,11 +37,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/name_text_view"
         tools:srcCompat="@drawable/Bogotá" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/label_info_text_view"
         style="@style/Texto_subtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,11 +51,11 @@
         android:textColor="@color/brown"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/picture_image_view"
         tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/info_text_view"
         style="@style/Texto_parrafo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,10 +64,10 @@
         android:text="@string/informacion"
         android:textColor="#090909"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/label_info_text_view" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/label_temp_text_view"
         style="@style/Texto_subtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,41 +75,41 @@
         android:layout_marginTop="4dp"
         android:text="@string/sub_temperatura"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_view"
         tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/temp_text_view"
         style="@style/Texto_parrafo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:text="@string/temperatura"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_view" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/label_alt_text_view"
         style="@style/Texto_subtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="4dp"
         android:text="@string/sub_altura"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/temp_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_view"
         tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/alt_text_view"
         style="@style/Texto_parrafo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:text="@string/altura"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/label_alt_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

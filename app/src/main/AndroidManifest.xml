@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TownShip">
         <activity
-            android:name=".ListTownActivity"
+            android:name=".list.ListTownActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".detalle.DetalleActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         </activity>
     </application>
 

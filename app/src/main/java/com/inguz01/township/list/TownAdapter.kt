@@ -7,11 +7,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.inguz01.township.R
+import com.inguz01.township.model.TownsItem
 import com.squareup.picasso.Picasso
 
 class TownAdapter(
-    private val TownList:ArrayList<TownsItem> // ArrayList<TownsItem> se podria llamar solo Towns ya q este es una arraylist en Towns.kt
-    private val onItemClicked: (TownsItem) -> Unit,
+    private val TownList:ArrayList<TownsItem>, // ArrayList<TownsItem> se podria llamar solo Towns ya q este es una arraylist en Towns.kt
+    private val onItemClicked: (TownsItem) -> Unit
     ):RecyclerView.Adapter<TownAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -35,7 +36,7 @@ class TownAdapter(
         private var pictureImageView: ImageView = itemview.findViewById(R.id.picture_image_view)
 
         fun bind(town: TownsItem){
-            //Log.d("nombre", town.name)//
+            //Log.d("nombre", town.name)
             nameTextView.text = town.name
             descripTextView.text = town.descrip
             caliTextView.text = town.cali.toString()

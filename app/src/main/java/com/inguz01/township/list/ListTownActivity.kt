@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.inguz01.township.R
 import com.inguz01.township.detalle.DetalleActivity
+import com.inguz01.township.model.Towns
+import com.inguz01.township.model.TownsItem
 
 class ListTownActivity : AppCompatActivity() {
 
@@ -24,7 +26,7 @@ class ListTownActivity : AppCompatActivity() {
 
         //listTowns = createMockTownShip()
         listTowns = loadMockTownsFromJson()
-        townAdapter = TownAdapter(listTowns, onItemClicked = {onTowns(it)})
+        townAdapter = TownAdapter(listTowns, onItemClicked = {onTownsClicked(it)})
 
 
         townsRecyclerView.apply{
@@ -34,8 +36,8 @@ class ListTownActivity : AppCompatActivity() {
         }
     }
 
-    private fun onTowns(town: TownsItem) {
-        Log.d("name",town.name)
+    private fun onTownsClicked(town: TownsItem) {
+        // Log.d("name",town.name)
         val intent = Intent(this,DetalleActivity::class.java)
         intent.putExtra("town",town)
         startActivity(intent)
@@ -44,8 +46,8 @@ class ListTownActivity : AppCompatActivity() {
     private fun loadMockTownsFromJson(): ArrayList<TownsItem> {
         val townString: String = applicationContext.assets.open("towns.json").bufferedReader().use { it.readText()}
         val gson = Gson()
-        val data = gson.fromJson(townString, Towns::class.java)
-        return data
+        val TownList = gson.fromJson(townString, Towns::class.java)
+        return TownList
     }
 
     /*private fun createMockTownShip() : ArrayList<Towns>{

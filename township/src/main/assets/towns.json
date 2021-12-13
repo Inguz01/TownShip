@@ -1,0 +1,83 @@
+[
+	{
+		"name" : "Bogotá D.C",
+		"descrip" : "Ciudad capital de Colombia",
+		"cali" : 4.5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x112q90/923/sHc6J8.jpg",
+		"info" : "Bogotá, la capital de Colombia es multicultural, diversa y llena de arte, una ciudad engalanada por los verdes paisajes de sus Cerros orientales y las cientos de especies de aves residentes y migratorias que se pueden encontrar en los humedales, parques y barrios de la capital. En el centro de Bogotá puedes encontrar una extensa riqueza cultural e histórica, reflejada en desenas de museos, universidades, restaurantes, casas de estilo republicano y colonial, y por supuesto en sus emblemáticos Cerros Monserrate y Guadalupe.",
+		"temp" : "6°C - 19°C",
+		"alt" : "2600 msnm"
+	},
+	{
+		"name" : "La Calera",
+		"descrip" : "Municipio aledaño a Bogotá D.C con excelente mirador a esta ciudad",
+		"cali" : 5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x119q90/924/J7Zjzb.jpg",
+		"info" : "En La Calera hay planes y actividades para todos los gustos y miembros de la familia. Por un lado, tienes el Mirador de La Calera, el cual es un lugar digno de visitar, pues desde aquí tienes una vista impresionante de la ciudad de Bogotá, si vas de noche, mucho mejor. Luego tienes  diferentes opciones para que practiques deportes extremos como canopy, rappel, escalada y paseos en cuatrimotos. Por otro lado, La Calera es la entrada al Parque Nacional Natural Chingaza; uno de los páramos y parques más lindos e impresionantes de Colombia. Si eres amante de la naturaleza y el senderismo, entonces este es un lugar que no deberías dejar de visitar.",
+		"temp" : "6°C - 18°C",
+		"alt" : "2718 msnm"
+	},
+	{
+		"name" : "Zipaquirá",
+		"descrip" : "Municipio ubicado a 29 km de Bogotá D.C, destacado por sus minas de Sal",
+		"cali" : 4.5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x133q90/924/2w4593.jpg",
+		"info" : "Puedes llegar a este bello municipio mediante tren o automóvil. Su principal atracción es la Catedral de Sal de Zipaquirá, aquella que es considerada la Primera Maravilla de Colombia, Único Templo Subterráneo del Mundo 180 metros bajo tierra y 2do Lugar de Culto Más Impresionante del Planeta, lugar muy recomendado para visitar, pero también puedes disfrutar de sus calles coloniales, su comida típica y artesanías.",
+		"temp" : "6°C - 18°C",
+		"alt" : "2650 msnm"
+	},
+	{
+		"name" : "Tenjo",
+		"descrip" : "Municipio ubicado a 28 km de Bogotá D.C, destaca la Peña de Juaica",
+		"cali" : 4.5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x112q90/922/kprc8Y.jpg",
+		"info" : "Entre las actividades que puedes encontrar en este bello municipio estan en agroturismo se abren las puertas de las fincas para que el turista conozca y practique labores propias como el ordeño, la siembra o la recolección de algún cultivo,  el ciclomontañismo y la escalada en montaña, el recorrido por las veredas y los diferentes grados de dificultad que la topografía ofrece son las mayores atracciones para los aficionados a estas disciplinas y para caminata se destaca la Peña de Juaica, además se puede conocer la infinita biodiversidad del municipio, que incluye el colibrí más pequeño del mundo (Silfo espléndido). Este pequeño animal mide solo 8 centímetros del pico a la punta de la cola y Tenjo es el único lugar del mundo donde se puede encontrar. Su variedada de restaurantes tambien es un gran atractivo.",
+		"temp" : "7°C - 19°C",
+		"alt" : "2569 msnm"
+	},
+	{
+		"name" : "Chía",
+		"descrip" : "Municipio ubicado a 10 km de Bogotá D.C, destaca su gastronomía y comercio",
+		"cali" : 4.5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x108q90/924/bg5Wqf.jpg",
+		"info" : "Chía es un municipio moderno, usted encontrará centros comerciales, restaurantes de talla internacional, lugares turísticos como: El Castillo Marroquín y El Puente del Común, además de espacios naturales. Día a día Chía se perfila como uno de los mejores destinos para visitar el fin se semana por su gran cantidad de restaurantes, cafés, bares de ambiente bohemio; eso sí cada lugar es muy acogedor para  poder disfrutar de un rato de esparcimiento a la luz de la luna, realizar cabalgatas por el Cerro la Valvanera, acampar en la Montaña del Oso y disfrutar de un paseo por el centro histórico.",
+		"temp" : "7°C - 9°C",
+		"alt" : "2654 msnm"
+	},
+	{
+		"name" : "Villeta",
+		"descrip" : "Ubicado a 91 km de Bogotá  D.C, ciudad panelera de Colombia y se destaca su clima calido",
+		"cali" : 4,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x133q90/923/Vi5HZw.jpg",
+		"info" : "Villeta es conocida por su producción de panela, por sus festividades, como el Reinado Nacional de La Panela en enero y el Festival Departamental de Bandas en agosto, y por ser la población donde se da inicio a la Ruta del Sol. Es también un importante centro turístico del departamento de Cundinamarca debido a sus senderos ecológicos, cascadas, balnearios, fincas paneleras e infraestructura hotelera.",
+		"temp" : "19°C - 30°C",
+		"alt" : "850 msnm"
+	},
+	{
+		"name" : "Fusagasugá",
+		"descrip" : "Ubicada a 59km de Bogotá D.C, se destaca por su clima y sus paisajes",
+		"cali" : 4.5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x150q90/924/rlxXnv.jpg",
+		"info" : "Hay recorridos ecológicos que se hace desde la huerta orgánica, pasando por el árbol de ventana, es totalmente hueco y pueden ingresar al interior del árbol, la cueva del tunjo, la cascada del cacique, el bosque del oso perezoso, es establo panche, la piedra ceremonial, el árbol milagro! Nació en una piedra y la raíz rodea la piedra, los humedales, el árbol de los sueños y el mirador donde se ve espectacular la vista de Fusagasugá, y eso no es nada, el almuerzo es en leña, una experiencia deliciosa. ??",
+		"temp" : "18°C - 23°C",
+		"alt" : "1726 msnm"
+	},
+	{
+		"name" : "Cota",
+		"descrip" : "Ubicada a 26 km de Bogotá D.C, ideal para senderismo",
+		"cali" : 4.8,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x200q90/922/1OstXh.jpg",
+		"info" : "Cota destaca por su gran biodiversidad, existe por ejemplo, el Bioparque La Reserva es un parque temático natural y santuario de plantas y animales rescatados del tráfico ilegal, donde el visitante atravesara representaciones de ecosistemas colombianos viviendo una experiencia única con la naturaleza. Otro sitio es el Cerro de Majuy  es un recorrido sencillo y divertido que puedes realizar en familia. Su dificultad “moderada” te permitirá llegar a una espectacular panorámica de la ciudad de Bogota y sus alrededores en un tiempo aproximado de 3 horas. ",
+		"temp" : "7°C - 19°C",
+		"alt" : "2566 msnm"
+	},
+	{
+		"name" : "Tobia",
+		"descrip" : "Ubicada a 74 km de Bogotá D.C, ideal para hacer para practicar deportes extremos",
+		"cali" : 5,
+		"urlPicture" : "https://imagizer.imageshack.com/v2/200x133q90/923/zxM3OE.jpg",
+		"info" : "Las montañas, ríos, quebradas y el clima tropical hacen de Tobia un escenario ideal para la práctica del Rafting y otros deportes extremos como Rapel, Torrentismo, Canopy, Paintball, Canyoning, Cabalgata y otras actividades ecoturisticas. Estos deportes de aventura se presentan a los aventureros en planes o paquetes multiaventura de uno a tres días, lo cuales adicionalmente a los deportes incluyen alojamiento en hotel o camping, seguros, comidas, piscina, equipos de operación, traslados internos y guías especializados. Para hacer rafting en Tobia o practicar cualquier deporte extremo el viajero no requiere experiencia y puede disfrutarlos en familia incluyendo los mas pequeños (niños), con los amigos, con la pareja o con sus compañeros de trabajo.",
+		"temp" : "28°C - 30°C",
+		"alt" : "750 msnm"
+	}
+]

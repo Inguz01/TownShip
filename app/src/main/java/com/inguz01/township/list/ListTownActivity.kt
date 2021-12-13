@@ -2,7 +2,6 @@ package com.inguz01.township.list
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -44,10 +43,10 @@ class ListTownActivity : AppCompatActivity() {
     }
 
     private fun loadMockTownsFromJson(): ArrayList<TownsItem> {
-        val townString: String = applicationContext.assets.open("towns.json").bufferedReader().use { it.readText()}
+        val townString: String =
+            applicationContext.assets.open("towns.json").bufferedReader().use { it.readText() }
         val gson = Gson()
-        val TownList = gson.fromJson(townString, Towns::class.java)
-        return TownList
+        return gson.fromJson(townString, Towns::class.java)
     }
 
     /*private fun createMockTownShip() : ArrayList<Towns>{

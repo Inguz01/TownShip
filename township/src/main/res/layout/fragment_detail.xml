@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B388FF"
-    tools:context=".detalle.DetalleActivity">
+    tools:context=".detalle.activity_main">
 
     <TextView
         android:id="@+id/name_text_view"

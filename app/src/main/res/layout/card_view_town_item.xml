@@ -31,11 +31,11 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
+                android:contentDescription="@null"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/bogota1"
-                android:contentDescription="@null"/>
+                app:srcCompat="@drawable/bogota" />
 
             <TextView
                 android:id="@+id/name_text_view"

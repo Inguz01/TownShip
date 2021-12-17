@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.inguz01.township.databinding.FragmentListBinding
 import com.inguz01.township.model.Towns
@@ -30,10 +32,18 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         listTowns = loadMockTownsFromJson()
         townAdapter = TownAdapter(listTowns, onItemClicked = {onTownsClicked(it)})
+
+        listBinding.townRecyclerView.apply{
+            layoutManager = LinearLayoutManager(context)
+            adapter = townAdapter
+            setHasFixedSize(false)
+        }
     }
 
     private fun onTownsClicked(town: TownsItem) {
-        //TODO Programar detalle
+        findNavController().navigate(List)
+    //findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(towns = town))
+    //TODO Programar detalle
     }
 
 

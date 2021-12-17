@@ -17,5 +17,10 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.inguz01.township.detail.DetailFragment"
-        android:label="DetailFragment" />
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="Towns"
+            app:argType="com.inguz01.township.model.TownsItem" />
+    </fragment>
 </navigation>

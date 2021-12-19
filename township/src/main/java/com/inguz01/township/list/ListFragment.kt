@@ -41,9 +41,7 @@ class ListFragment : Fragment() {
     }
 
     private fun onTownsClicked(town: TownsItem) {
-        findNavController().navigate(List)
-    //findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(towns = town))
-    //TODO Programar detalle
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(towns = town))
     }
 
 

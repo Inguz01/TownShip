@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.inguz01.township.databinding.FragmentListBinding
+import com.inguz01.township.main.MainActivity
 import com.inguz01.township.model.Towns
 import com.inguz01.township.model.TownsItem
 
@@ -18,6 +19,10 @@ class ListFragment : Fragment() {
     private lateinit var townAdapter: TownAdapter
     private lateinit var listTowns: ArrayList<TownsItem>
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -30,6 +35,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listTowns = loadMockTownsFromJson()
         townAdapter = TownAdapter(listTowns, onItemClicked = {onTownsClicked(it)})
 

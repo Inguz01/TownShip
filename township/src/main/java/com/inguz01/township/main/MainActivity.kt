@@ -1,5 +1,7 @@
 package com.inguz01.township.main
 
+import android.app.ActionBar
+import android.app.Notification
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -34,7 +36,21 @@ class MainActivity : AppCompatActivity() {
                 ft.addToBackStack(null)
                 true
             }
+
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
             else -> {return true}
         }
+    }
+    fun showIcon(){
+        val actionBar : androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    fun hideIcon(){
+        val actionBar : androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(false)
     }
 }

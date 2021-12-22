@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId){
             R.id.menu_preferences -> {
                 val settingsFragments = SettingsFragment ()
-                ft.replace(R.id.fragmentContainerView, settingsFragments).commit()
+                ft.replace(R.id.fragmentContainerView, settingsFragments ).commit()
                 ft.addToBackStack(null)
                 true
             }

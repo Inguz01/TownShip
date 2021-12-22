@@ -5,19 +5,23 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.navArgs
 import com.inguz01.township.databinding.FragmentDetailBinding
+import com.inguz01.township.R
 import com.inguz01.township.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
+    private val detailViewModel: DetailViewModel by viewModels()
     private val args: DetailFragmentArgs by navArgs()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        (activity as MainActivity?)?.showIcon()
+       // (activity as MainActivity?)?.showIcon()
     }
 
 
@@ -33,7 +37,7 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val town = args.towns
+        val town = args.town
 
         with(detailBinding) {
             nameTextView.text = town.name

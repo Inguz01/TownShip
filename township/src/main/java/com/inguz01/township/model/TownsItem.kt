@@ -1,8 +1,7 @@
 package com.inguz01.township.model
 
-
-import com.google.gson.annotations.SerializedName
 import java.io.Serializable
+import com.google.gson.annotations.SerializedName
 
 data class TownsItem(
     @SerializedName("alt")
@@ -19,4 +18,4 @@ data class TownsItem(
     val temp: String,
     @SerializedName("urlPicture")
     val urlPicture: String
-) : Serializable
+) :Serializable

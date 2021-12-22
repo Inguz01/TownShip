@@ -23,7 +23,7 @@
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
-            android:name="Towns"
+            android:name="town"
             app:argType="com.inguz01.township.model.TownsItem" />
     </fragment>
     <fragment
